@@ -1,0 +1,57 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+  }
+  .test1{
+   border-radius: 6px;
+    background-color: white;
+    width: 100px;
+
+  }
+  .test1:hover{
+    background-color: grey;
+  }
+  .test{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   grid-column: auto;
+   background-color: rgba(255, 255, 255, 0.521);
+   border-radius: 10px;
+   font: italic 1.2rem "Fira Sans", seri;
+   padding: 5px;
+  
+
+  }
+  #main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color:rgba(128, 128, 128, 0.459);
+  }
+  #container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    min-height: 20px;
+    width:400px;
+    background-color: rgb(128, 128, 128);
+    padding: 8px;
+    border-radius: 10px;
+  }
+  #add_btn {
+    transition: transform 0.4s linear;
+    border-radius: 6px;
+ 
+  }
+ #input_place{
+    font: italic 1.2rem "Fira Sans", serif;
+ }
+  #add_btn:hover {
+    transform: scale(1.05);
+    background-color: grey;
+  }
+  
